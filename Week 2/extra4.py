@@ -21,16 +21,13 @@ groq = ChatGroq(
 
 outputParser = StrOutputParser()
 
-
 sentiment_template = ChatPromptTemplate([
     ("system", "you are expert in reading sentiments"),
     ("human", "{sentiment}")
 ])
 
-
 summary_chain = summary_template | groq | outputParser 
 sentiment_chain = sentiment_template | groq | outputParser
-
 
 final_chain = RunnableParallel(
     original = RunnablePassthrough(),
@@ -38,7 +35,6 @@ final_chain = RunnableParallel(
     sentiment = {"sentiment" : RunnablePassthrough() } | sentiment_chain
 )
 result = final_chain.invoke({"paragraph":"The new fitness tracker I bought last month has completely changed my morning routine. The battery lasts nearly a week, which is way better than my old device, and the app is surprisingly easy to use. My only complaint is that the strap started fraying after just a few weeks of regular use, which feels disappointing for a premium-priced product."})
-
 
 print(":::::::::::::::::::::::::::::::::::::::::: summary :::::::::::::::::::::::::::::::::::::::::: \n", result["summary"])
 print(":::::::::::::::::::::::::::::::::::::::::: sentiment :::::::::::::::::::::::::::::::::::::::::: \n", result["sentiment"])

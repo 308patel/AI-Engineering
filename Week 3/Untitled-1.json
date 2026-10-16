@@ -1,0 +1,50 @@
+{
+  "type": "caseStudyChallenges",
+  "title": "Navigating Complex Legacy",
+  "highlightTitle": "Integration Roadblocks",
+  "lightImage": {
+    "id": 10,
+    "url": "https://cms.innvonix.com/uploads/challenge_light.webp",
+    "alternativeText": "Challenge light illustration",
+    "width": 1200,
+    "height": 800
+  },
+  "darkImage": {
+    "id": 11,
+    "url": "https://cms.innvonix.com/uploads/challenge_dark.webp",
+    "alternativeText": "Challenge dark illustration",
+    "width": 1200,
+    "height": 800
+  },
+  "overview": {
+    "title": "The Core Problem Statement",
+    "description": [
+      {
+        "id": 101,
+        "description": "The client's legacy ERP platform operated as an isolated silo, causing severe data discrepancies across distributed warehouse facilities."
+      },
+      {
+        "id": 102,
+        "description": "Manual batch syncing caused order processing delays of up to 48 hours, failing SLA commitments during peak demand periods."
+      }
+    ]
+  },
+  "challanges": {
+    "title": "High Latency & Data Fragmentation",
+    "description": "Legacy SOAP services were unable to support high-throughput real-time inventory updates.",
+    "labels": [
+      {
+        "id": 304,
+        "label": "Security & Compliance"
+      },
+      {
+        "id": 305,
+        "label": "Zero Downtime"
+      },
+      {
+        "id": 306,
+        "label": "Audit Logging"
+      }
+    ]
+  }
+}
