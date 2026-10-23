@@ -1,0 +1,26 @@
+{
+  "content": "",
+  "reasoning_content": "We need to add 10 apples and 20 eggs to cart, then calculate total. We need product prices. Use search_product for \"apple\" and \"eggs\". Then add_to_cart with price and qty. Then calculate_cart_total.",
+  "tool_calls": [
+    {
+      "id": "fc_9fd81c7e-d4ff-40e9-813f-45680092b8e6",
+      "type": "tool_call",
+      "function": {
+        "name": "search_product",
+        "arguments": {
+          "product_name": "apple"
+        }
+      }
+    }
+  ],
+  "response_metadata": {
+    "model_name": "openai/gpt-oss-120b",
+    "model_provider": "groq",
+    "finish_reason": "tool_calls"
+  },
+  "tool_response": {
+    "name": "search_product",
+    "content": "10",
+    "tool_call_id": "fc_9fd81c7e-d4ff-40e9-813f-45680092b8e6"
+  }
+}

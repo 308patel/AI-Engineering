@@ -1,0 +1,92 @@
+{
+      "type": "caseStudySolutionSection",
+      "showComponent": true,
+      "title": " The",
+      "highlightTitle": "Solution",
+      "tabs": [
+        {
+          "tabLabel": "Digital Monitoring",
+          "tabType": "tabImageContent",
+          "title": "Digital Monitoring Built Around Real-World Needs ",
+          "description": "<p><span style=\"white-space:pre-wrap;\">Innvonix developed digital experiences that bring monitoring information, operational workflows, and user accessibility into focus. </span></p><p><span style=\"white-space:pre-wrap;\">Monty PRO serves commercial composting facilities through a web-based platform for temperature monitoring, batch management, compliance tracking, and reporting. Monty Compost provides individual users with a dedicated mobile application for accessing environmental measurements and historical monitoring data. </span></p><p><span style=\"white-space:pre-wrap;\">The engineering approach prioritized usability, structured information management, and application experiences designed around each audience. </span></p>",
+          "lightImage": {
+            "url": "https://nims-test.s3.ap-south-1.amazonaws.com/innvonix%20website/Case%20Study/Solutions/Light/Frame_1686558937_fcfe90a49b.webp",
+            "alt": "",
+            "width": 1620,
+            "height": 672
+          },
+          "darkImage": {
+            "url": "https://nims-test.s3.ap-south-1.amazonaws.com/innvonix%20website/Case%20Study/Solutions/Light/Frame_1686558937_fcfe90a49b.webp",
+            "alt": "",
+            "width": 1620,
+            "height": 672
+          }
+        },
+        {
+          "tabLabel": "Monty PRO",
+          "tabType": "tabFeatureList",
+          "featureHeaders": [
+            {
+              "title": "Automated Temperature Tracking and Compliance ",
+              "description": "<p><span style=\"white-space:pre-wrap;\">Monty PRO is a commercial compost monitoring solution designed to help facilities move away from manual temperature tracking and fragmented records. </span></p><p><span style=\"white-space:pre-wrap;\">The platform combines temperature data from connected monitoring devices with batch records, configurable thresholds, compliance tracking, and reporting tools. Operators can access monitoring information through a browser-based interface, making site data available across desktop, tablet, and mobile devices. </span></p>"
+            }
+          ],
+          "featureItems": [
+            {
+              "title": "Automated Temperature Monitoring",
+              "description": "<p><span style=\"white-space:pre-wrap;\">Make compost temperature data easier to access and review across active operations. </span></p><ul><li data-list-item-id=\"e379d86236f42b89e39fb94e486109696\"><span style=\"white-space:pre-wrap;\">Collect readings from connected monitoring probes </span></li><li data-list-item-id=\"e294f2ce4f77c608ef8737926fb744a3e\"><span style=\"white-space:pre-wrap;\">Review temperature trends through visual dashboards </span></li><li data-list-item-id=\"e289a79a6ed68687d0f0b81071e4cfaac\"><span style=\"white-space:pre-wrap;\">Compare conditions across piles and batches </span></li><li data-list-item-id=\"ed0ba3a728fd040d2310cd84b63609319\"><span style=\"white-space:pre-wrap;\">Access historical monitoring records </span></li><li data-list-item-id=\"e3e4896e9a5de86ca3db723bf4288ebf6\"><span style=\"white-space:pre-wrap;\">Identify temperature deviations against configured thresholds </span></li></ul>",
+              "lightIcon": {
+                "url": "https://nims-test.s3.ap-south-1.amazonaws.com/innvonix%20website/Case%20Study/Related%20Services/Light/Group_2_38110508de.svg",
+                "alt": "",
+                "width": 18,
+                "height": 17
+              },
+              "darkIcon": {
+                "url": "https://nims-test.s3.ap-south-1.amazonaws.com/innvonix%20website/Case%20Study/Related%20Services/Dark/Group_3_cbe347e1d6.svg",
+                "alt": "",
+                "width": 18,
+                "height": 17
+              },
+              "lightImage": {
+                "url": "https://nims-test.s3.ap-south-1.amazonaws.com/innvonix%20website/Case%20Study/Solutions/Light/Frame_1686558937_fcfe90a49b.webp",
+                "alt": "",
+                "width": 1620,
+                "height": 672
+              },
+              "darkImage": {
+                "url": "https://nims-test.s3.ap-south-1.amazonaws.com/innvonix%20website/Case%20Study/Solutions/Light/Frame_1686558937_fcfe90a49b.webp",
+                "alt": "",
+                "width": 1620,
+                "height": 672
+              }
+            }
+          ]
+        },
+        {
+          "tabLabel": "Monty Compost",
+          "tabType": "tabCardList",
+          "cardHeader": {
+            "title": "Mobile Monitoring for Individual Users ",
+            "description": "<p><span style=\"white-space:pre-wrap;\">Monty Compost extends compost monitoring access through a dedicated mobile application for Android and iOS. </span></p><p><span style=\"white-space:pre-wrap;\">Designed around individual users, the application provides a more accessible way to view environmental measurements and review historical trends without the operational complexity of commercial management software. </span></p>"
+          },
+          "items": [
+            {
+              "title": "Environmental Monitoring ",
+              "description": "<p><span style=\"white-space:pre-wrap;\">Access available temperature, moisture, and gas measurement information through the mobile interface. </span></p>",
+              "lightImage": {
+                "url": "https://nims-test.s3.ap-south-1.amazonaws.com/innvonix%20website/Case%20Study/Solutions/Light/Frame_1686558937_fcfe90a49b.webp",
+                "alt": "",
+                "width": 1620,
+                "height": 672
+              },
+              "darkImage": {
+                "url": "https://nims-test.s3.ap-south-1.amazonaws.com/innvonix%20website/Case%20Study/Solutions/Light/Frame_1686558937_fcfe90a49b.webp",
+                "alt": "",
+                "width": 1620,
+                "height": 672
+              }
+            }
+          ]
+        }
+      ]
+    }
