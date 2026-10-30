@@ -4,8 +4,7 @@ import os
 from dotenv import load_dotenv
 load_dotenv("../.env")
 prompt = "Explain what a REST API is in 3 sentences."
-print(">>>>>>>>>>>>>>>>>>>>>",os.getenv("GROQ_API_KEY").strip())
-print(">>>>>>>>>>>>>>>>>>>>>",os.getenv("GOOGLE_API_KEY").strip())
+
 groq = ChatGroq(
     model="openai/gpt-oss-120b",
     temperature=0.7,

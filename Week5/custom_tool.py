@@ -31,7 +31,7 @@ llm_with_tools = llm.bind_tools(tools)
 # create a tool lookup dictionary
 tool_lookup = {t.name: t for t in tools}
 
-message = [HumanMessage("add 4 and 7 also multiply 56 and 76")]
+message = [HumanMessage("add 4 and 7 and after that answer multiply with 50")]
 while True: 
     response = llm_with_tools.invoke(message)
 
@@ -42,12 +42,9 @@ while True:
         print("✅ Final Answer:", response.content)
         break  # Exit the loop
 
-
     for tool_call in response.tool_calls:
         selected_tool = tool_lookup[tool_call["name"]]
-
         tool_result = selected_tool.invoke(tool_call["args"])
-
         message.append(
             ToolMessage(
                 content = str(tool_result),
@@ -55,6 +52,6 @@ while True:
             )
         )
 
-    final_response = llm_with_tools.invoke(message)
-    print("Final Response:", final_response.content)
+    # final_response = llm_with_tools.invoke(message)
+    # print("Final Response:", final_response.content)
 

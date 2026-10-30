@@ -44,12 +44,13 @@ result = agent.invoke({
 })
 
 # only purpose is to show use proper message for toolcalling
-for msg in result["messages"]:
+for msg in result['messages']:
     msg_type = type(msg).__name__
-    if hasattr(msg, 'tools_calls') and msg.tools_calls:
-        for tc in msg.tools_calls:
-            print(f"Tool Call: {tc['name']} with args: {tc['args']}")
+    if hasattr(msg, 'tool_calls') and msg.tool_calls:
+        for tc in msg.tool_calls:
+            print(f"Tool Call: {tc['name']} and arguments is {tc['args']} ")
     if msg.content:
-        continue
+        print(f"Tool Call  >:: [{msg_type}]: {msg.content}")
+            
 
-    print("\n Final Answer : ", result["messages"][-1].content)
+print("\n Final Answer : ", result["messages"][-1].content)

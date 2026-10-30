@@ -40,7 +40,7 @@ llm = ChatGroq(
 tools = [search_product, add_to_cart, calculate_cart_total]
 
 
-agent=create_agent(
+agent = create_agent(
     model=llm,
     tools=tools
 )
