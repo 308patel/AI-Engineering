@@ -56,7 +56,7 @@ Rules:
     # Invoke agent
     result = await agent.ainvoke({
         "messages":[{
-            "role":"user", "content": "Add all current files to Git staging and commit them with the commit message 'Week5'."
+            "role":"user", "content": "how many commit this repository has?"
 
         }]
     })

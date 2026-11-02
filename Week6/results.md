@@ -1,0 +1,5 @@
+Node.js is a free, open‑source, cross‑platform JavaScript runtime environment that runs outside the browser (Node.js® is a free, open‑source, cross‑platform JavaScript runtime environment… – Node.js Learn).
+It is built on Chrome’s V8 engine and enables developers to write server‑side code, command‑line tools, and scripts.
+Node.js follows an asynchronous, event‑driven architecture with a single‑threaded event loop, allowing it to handle many concurrent connections efficiently (Node.js is an asynchronous event‑driven JavaScript runtime… – Node.js Learn).
+I/O operations are non‑blocking; the runtime delegates work to the system thread pool and invokes callbacks when operations complete (Node.js uses an asynchronous and non‑blocking architecture… – GeeksforGeeks).
+This design lets Node.js serve high‑traffic network applications with minimal resource usage.

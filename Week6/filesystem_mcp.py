@@ -26,11 +26,15 @@ async def main():
             ],
             "transport":"stdio"
         },
-        "fetch": {
-            "command": "uvx",
-            "transport": "stdio",
-            "args":["mcp-server-fetch"]
-        }
+        "duckduckgo": {
+        "command": "uvx",
+        "args": [
+            "--with",
+            "duckduckgo-mcp-server[browser]",
+            "duckduckgo-mcp-server"
+        ],
+        "transport": "stdio"
+    },
     })
 
     # System Prompt
@@ -46,7 +50,7 @@ Rules:
 5. Never fabricate, assume, or supplement information missing from tool outputs.
 6. Your final answer must be directly supported by the tool output.
 7. Do not repeatedly call tools for the same operation.
-8. Answer in 4-5 words for weather data.
+8. Answer in 5-6 lines for node js and how it works.
 """
 
     # Get available tools
@@ -61,8 +65,8 @@ Rules:
     # Invoke agent
     result = await agent.ainvoke({
         "messages":[{
-            "role":"user", "content": "in file name example.json fetch hero section of https://innvonix2k26.dev.innvonix.in/ and write there"
+            "role":"user", "content": "What is node js and how it works? create file results.md andwrite this to results.md"
         }]
     })
-    print("\n \n",result['messages'][-1].content)
+    print("\n \n \n \n \n response >>>>>",result['messages'][-1].content)
 asyncio.run(main())
