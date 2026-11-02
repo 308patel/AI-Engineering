@@ -71,7 +71,7 @@ Rules:
     # Invoke agent
     result = await agent.ainvoke({
         "messages":[{
-            "role":"user", "content": "add commit message 'add: week 6 completed'"
+            "role":"user", "content": "add commit 'add: week 6 completed'"
         }]
     })
     print("\n \n",result['messages'][-1].content)
